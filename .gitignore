@@ -1,0 +1,29 @@
+﻿# Игнорируем ОЧЕНЬ большие обработанные файлы данных (.xls > 100MB)
+data/data_processed/*.xls
+
+# Игнорируем временные файлы и кэши
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Файлы IDE/редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Резервные копии
+*.bak
+*.backup
+~$*
